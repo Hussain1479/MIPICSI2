@@ -34,7 +34,7 @@ BYTETOPIXEL Y(
 .line_select(line_select),
 .dinrm(dinrm),
 .transmit(transmit),
-.frame_start(frame_start), .frame_end(frame_end),.data_valid_o(data_valid_o)
+.frame_start(frame_start), .frame_end(frame_end),.data_valid_o1(data_valid_o)
 );
 
 reg [15:0] read_addr;
